@@ -10,7 +10,7 @@ struct Node {
 
 Node* head =NULL;
 
-/*to add event in the begninng or insert in the begninning */
+//to add event in the begninng or insert in the begninning 
 void addEvent(string e) {
     Node* n = new Node;
     n->event = e;
@@ -18,7 +18,7 @@ void addEvent(string e) {
     head = n;
 }
 
-/*To show all events*/
+//To show all events
 void showEvents(){
     Node* temp =head;
     cout<< "Live Events \n";
@@ -28,7 +28,7 @@ void showEvents(){
     }
 }
 
-/*for user menu function */
+//for user menu function 
 void linkedListMenu(){
     int choice ;
     string e;
